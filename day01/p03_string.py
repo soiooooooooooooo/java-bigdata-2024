@@ -112,6 +112,6 @@ print(f'++{origin.strip()}++') # 양쪽 공백 다
 
 print(cp.replace('too', '').replace(' short', 'long'))
 
-## 문자열 자르기 -> 리스트(파이썬에느 배열x)
+## 문자열 자르기 -> 리스트(파이썬에는 배열x)
 cpWords = cp.split(' ')
 print(cpWords)
