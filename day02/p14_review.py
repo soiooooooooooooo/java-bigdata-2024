@@ -1,4 +1,4 @@
-# file: p14_review/py
+# file: p14_review.py
 # desc: 리뷰
 
 #01
