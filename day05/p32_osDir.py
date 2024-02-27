@@ -13,8 +13,8 @@ def search(dirName):
           else:
            ext = os.path.splitext(fullName) [-1] # tuple의 제일 뒤의 값 str
            if ext == '.py' or ext == '.ipynb': # 파이썬 파일만 출력
-               with open(fullName, mode='r',encoding='utf-8') as fp : # with로 파일열면 close() 필요x
-               print (f'파일명 : {fullName}, 라인수 : {len(fp.readlines())}줄 )
+              with open(fullName, mode='r',encoding='utf-8') as fp : # with로 파일열면 close() 필요x
+                print(f'파일명 : {fullName}, 라인수 : {len(fp.readlines())}줄')
     except PermissionError as e: #접근권한이 없을때
        print('접근권한이 없습니다', e.args)
 

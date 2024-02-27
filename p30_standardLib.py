@@ -2,6 +2,7 @@
 # desc: 표준 라이브러리(빌트인) 학습
 
 import datetime
+import time
 
 print(datetime.date(2024,2,26)) # 현재의 OS에 맞춰서 날짜형으로 변경
 
@@ -27,6 +28,7 @@ for i in range(5):
     print(f'{i} 출력')
     #time.sleep(2) # 2초씩 잠시 멈춤
 
+import random
 ##
 print(random.random()) #0~1 사이의 소수점 랜덤수
 print(random.randint(1,45)) # 1,45 사이의 랜덤수
@@ -43,9 +45,9 @@ for i in range(5):
 
         if len(result) == 6: break
     
-     result.sort()
+        result.sort()
         total.append(result)
-            result = []
+    result = []
     
 print(total)
 
