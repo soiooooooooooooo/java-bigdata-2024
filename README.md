@@ -103,6 +103,7 @@
     def getInfo(self):
         return self.__name,self.__phoneNumber,self.__eMail,self.__addr
       ```
-      ![주소록앱](https://github.com/soiooooooooooooo/java-bigdata-2024/blob/main/images/KakaoTalk_20240227_152639834.gif?raw=true)
+      ![주소록앱](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData01.gif)
       
       -windows App 만들기(PyQt 5)
+      ![QtApp](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData02.png)
