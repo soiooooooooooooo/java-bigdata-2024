@@ -21,10 +21,12 @@ class Contact: #주소록 클래스
                f'주  소 : {self.__addr}')
         return res
 
-def run():
-    #first = Contact('홍길동','010-9999-5555',' hgd@naver.com','경성')
-    first = Contact(addr='경성',phoneNumber='010-9999-5555',name='홍길동',eMail=' hgd@naver.com')
+def setContect() : # 사용자 입력으로 주소록 받기함수
+    (name,phoneNumber,eMail,addr) = input('주소록 입력(이름, 핸드폰,이메일, 주소[구분자/]) > ').split('/')
+    print(f'{name},{phoneNumber},{eMail},{addr}')
 
+def run():
+    setContect()
 if __name__ == '__main__': #메인 엔트리
     print('프로그램 시작')
     run() # 메인함수 실행
