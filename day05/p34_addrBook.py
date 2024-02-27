@@ -39,7 +39,8 @@ def setContact(): # 사용자 입력으로 주소록 받기함수
     return contact
 
 def delContact(lst, name): #연락처 삭제함수
-    for i, item in enumerate(lst):
+    for i in range(len(lst)-1,-1,-1): #리스트를 내림차순으로 뒤에서부터 삭제
+        item = lst[i]
         if item.isNameExist(name):
             del lst[i]
 
