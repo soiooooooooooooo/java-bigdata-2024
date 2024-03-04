@@ -129,11 +129,16 @@
 
     - TTS
      -QRCode 생성기
-     ! [QR]](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData06.png)
+     ! [QR] (https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData06.png)
 
      -구글 번역기앱
-     ! [구글번역](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData06.png)
+     ! [구글번역](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData07.png)
 
 # 8일차
 -파이썬응용
--파이썬자동화
+   -파이썬자동화
+      -PyAutoGui모듈(마우스,키보드,화면캡쳐)
+      -슬랙 webhook로 모바일 메시지 전송 
+     <!-- ! [슬랙](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData08.png) -->
+     <!-- html 태그로 이미지를 삽입하면 문제없음 -->
+     <img src ="https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData08.png" width = "250" >
