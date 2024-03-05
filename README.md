@@ -127,9 +127,10 @@
      - 스레드 개념,학습
     ! [스레드](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData05.png)
 
-    - TTS
+-파이썬 응용
+    - TTS(Text To Speech)
      -QRCode 생성기
-     ! [QR] (https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData06.png)
+     ! [QR](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData06.png)
 
      -구글 번역기앱
      ! [구글번역](https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData07.png)
@@ -147,9 +148,15 @@
 
 # 9일차
 -파이썬 응용
-   -이미지 처리 OpenCV
+
+   -이미지 처리 OpenCV 
+
+   -[Flask]("https://flask-docs-kr.readthedocs.io/ko/latest/index.html")
+   -[Django]()
    -플라스크 웹서버
-   -그림에디터 만들기
+
+   -그림에디터 만들기(with PyQt5)
+   -[editor ]("https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData11.png")
    -메모장 만들기
    -jupyter Notebook (빅데이터 분석, 코딩테스트)
 
