@@ -157,6 +157,18 @@
 
    -그림에디터 만들기(with PyQt5)
    -[editor ]("https://raw.githubusercontent.com/soiooooooooooooo/java-bigdata-2024/main/images/bigData11.png")
-   -메모장 만들기
-   -jupyter Notebook (빅데이터 분석, 코딩테스트)
 
+# 10일차
+  -파이썬응용
+    -그림에디터 완성(OpenCV 그레이스케일, 블러기능 추가)
+    -실행파일 만들기
+      -PyInstaller 모듈 설치
+      ``` shell
+      > pip install pyinstaller
+      > pyinstaller -w -F pythonfile.py
+      ```
+      - -w는 윈도우창만 실행 콘솔창 삭제, -F _internal 폴더 생성안되도록, 진짜 oneFile로 만들기
+      - 실패,재생성시는 build,dist 폴더 삭제,pythonfile.spec 삭제 뒤 다시 명령어 실행
+    -jupyter Notebook (빅데이터 분석, 코딩테스트)
+
+   -메모장 만들기
